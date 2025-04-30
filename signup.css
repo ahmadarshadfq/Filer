@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d1117;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    background: #161b22;
+    padding: 30px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 350px; /* Fixed width for better alignment */
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Form Group */
+.form-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #c9d1d9;
+}
+
+.form-group input {
+    width: calc(100% - 20px); /* Matching button width */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #30363d;
+    background: #0d1117;
+    color: white;
+    font-size: 16px;
+    display: block;
+    margin: auto;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #58a6ff;
+}
+
+/* Button */
+button {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    display: block;
+    width: 100%; /* Matching input fields width */
+    margin: auto;
+    transition: 0.3s;
+    border: 1px solid #58a6ff;
+    color: #58a6ff;
+    cursor: pointer;
+    margin-top: 10px;
+    background: #238636;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Link */
+p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #c9d1d9;
+}
+
+p a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
